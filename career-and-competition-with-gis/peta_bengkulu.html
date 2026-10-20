@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d9bcbf0b6f87ca7e13fa0544af4a43c0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d9bcbf0b6f87ca7e13fa0544af4a43c0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d9bcbf0b6f87ca7e13fa0544af4a43c0 = L.map(
+                "map_d9bcbf0b6f87ca7e13fa0544af4a43c0",
+                {
+                    center: [-3.8, 102.26],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f4077c1b4eafb6abf738e6679f2ff7a5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f4077c1b4eafb6abf738e6679f2ff7a5.addTo(map_d9bcbf0b6f87ca7e13fa0544af4a43c0);
+        
+    
+            var marker_af10689b936781632fad58954dfff104 = L.marker(
+                [-3.8167, 102.2667],
+                {
+}
+            ).addTo(map_d9bcbf0b6f87ca7e13fa0544af4a43c0);
+        
+    
+        var popup_51dea6501e87a6dd8731610199b8ecd4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d757c2401f08f4aaf949c4ecb19559e = $(`<div id="html_0d757c2401f08f4aaf949c4ecb19559e" style="width: 100.0%; height: 100.0%;">Pantai Panjang</div>`)[0];
+                popup_51dea6501e87a6dd8731610199b8ecd4.setContent(html_0d757c2401f08f4aaf949c4ecb19559e);
+            
+        
+
+        marker_af10689b936781632fad58954dfff104.bindPopup(popup_51dea6501e87a6dd8731610199b8ecd4)
+        ;
+
+        
+    
+    
+            var marker_f7126e36f2774475eeab88b023128b35 = L.marker(
+                [-3.7867, 102.2481],
+                {
+}
+            ).addTo(map_d9bcbf0b6f87ca7e13fa0544af4a43c0);
+        
+    
+        var popup_290db822f01053f322a6c45c9f5484d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be65c6a1f16192f9c233d6aa753ef156 = $(`<div id="html_be65c6a1f16192f9c233d6aa753ef156" style="width: 100.0%; height: 100.0%;">Benteng Marlborough</div>`)[0];
+                popup_290db822f01053f322a6c45c9f5484d3.setContent(html_be65c6a1f16192f9c233d6aa753ef156);
+            
+        
+
+        marker_f7126e36f2774475eeab88b023128b35.bindPopup(popup_290db822f01053f322a6c45c9f5484d3)
+        ;
+
+        
+    
+    
+            var marker_384025220b7d38dae109e2a9e1fb80df = L.marker(
+                [-3.7587, 102.2755],
+                {
+}
+            ).addTo(map_d9bcbf0b6f87ca7e13fa0544af4a43c0);
+        
+    
+        var popup_bc0bbaa1744d7babd1e19e2c8f35e6e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45cddaac9e06040fc069de2bd6a5dd89 = $(`<div id="html_45cddaac9e06040fc069de2bd6a5dd89" style="width: 100.0%; height: 100.0%;">Universitas Bengkulu</div>`)[0];
+                popup_bc0bbaa1744d7babd1e19e2c8f35e6e1.setContent(html_45cddaac9e06040fc069de2bd6a5dd89);
+            
+        
+
+        marker_384025220b7d38dae109e2a9e1fb80df.bindPopup(popup_bc0bbaa1744d7babd1e19e2c8f35e6e1)
+        ;
+
+        
+    
+</script>
+</html>
